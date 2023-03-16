@@ -1,0 +1,450 @@
+*{
+   
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body  {
+    margin: 0;
+    background-color: #efefef;
+
+}
+
+/* header para la barra de navegacion */
+header{
+   
+    font-family: 'Montserrat bold', sans-serif;
+    position: sticky;
+    right: 30px;
+    left: 0%;
+    top: 0%;
+
+       
+   
+}
+
+/* secciones parametros */
+nav{
+    background: #fff;
+    height: 90px;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 0 0.1rem 0.4rem rgb(0,0, 0,0.5);
+}
+/* logo telepinturas */
+.logo{
+    height: 75px;
+}
+.logo2{
+  
+    position: absolute;
+    padding: 10px 40px;
+    width: 320px;
+   
+   
+}
+.menu{
+    float: right;
+    margin-right: 50px;
+    list-style-type: none; 
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+    
+.menu li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+ }
+
+ .menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;   
+ }
+
+ .menu li a:hover{
+   color: coral;
+   
+ }
+ .icono1{
+    width: 50px;
+    
+}
+/* icono de las barritas */
+.icono{
+    float: right;
+    line-height: 155px;
+    margin-right: 50px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+ /* tamaño de los iconos de la redes sociales */
+ .icon{
+    width: 17px;
+ }
+/* esto es el titulo */
+.herder-content{
+    padding-top: 70px;
+    margin:  0 auto;
+    text-align: center;     
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("frente.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.herder-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    color: #f9fafc;
+}
+.herder-content p{
+    font-size: 18px;
+    padding: 0 250px;
+    margin-bottom: 25px;
+    color: #c5c5c5;
+}
+/* los btn son los botones de mas informacion */
+.btn-1{
+    margin-bottom: 30px;
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: coral;
+    color: black;
+}
+.btn-1:hover{
+    background-color: lightsalmon;
+}
+/* esta es la primera seccion */
+.telepin{
+    padding: 100px 0;
+    background-color: #fff;
+    /* position: relative; */
+}
+.telepin-content{
+    text-align: center;
+}
+
+.telepin-content h2{
+    font-size: 45px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px; 
+    margin-bottom: 15px;
+}
+.txt-p{
+    font-size: 18px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+.pinturas{
+    text-align:justify;
+    font-size: 17px;
+}
+.telepin-grup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.telepin-1{
+    padding: 0 25px;
+}
+.telepin-1 img{
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+}
+.telepin-1 p{
+    width: 0 200px;
+}
+.telepin-img{
+    margin-top:1rem ;
+    width: 100%;
+}
+.telepin-1 h2{
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+/* esto es para el fondo de los servicios pero no sirve :C */
+ .servicios{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("fondopinturas.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding: 100px 0;
+ }
+
+ .servicios-content{
+    text-align: center;
+ }
+ /* para el tamaño del titulo */
+ .servicios-content h2{
+    font-size: 55px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+ }
+ /* para el parrafo */
+ .servicios-content p{
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+   
+    padding: 0 100px;
+
+ }
+ /* donde esta el subtitulo y las imagenes */
+ .servicios-grup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+   
+  
+ }
+ /* las imagenes */
+ .servicios-1{
+    padding: 0 100px;
+    
+
+ }
+ .servicios-1 img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    
+    border-radius: 6px;
+ }
+ .servicios-1 h3{
+    color: #f9fafc;
+    font-size: 21px;
+ }
+
+ .general{
+    display: flex;
+
+ }
+ .general-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #fff;
+ }
+ .general-2{
+    background-image: url("inicio2.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+ }
+ .general-3{
+    background-image: url("inicio2.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+ }
+ .quienes-somos{
+    text-align: justify;
+ }
+ h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+ }
+p{
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+.blog{
+    padding: 100px 0;
+    text-align: center;
+}
+.blog-content{
+    display: flex;
+   justify-content: space-between;
+}
+.blog-1{
+    padding: 15px 55px;
+}
+.blog-1 img{
+    width: 220px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.blog-1 h3{
+    font-size: 25px;
+    color: #323337;
+}
+
+footer{
+  
+    background-color: #fff;
+    padding: 2rem;
+    color: black;
+    box-shadow: 0 0 0.4rem rgb(0,0, 0,0.5);
+}
+footer section{
+    float: right;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+
+}
+footer a:hover{
+    transition: color 0.3s ease;
+    color: coral;
+}
+@media(max-width: 1250px){
+    .menu{
+     font-size: 16px;
+     
+    }
+  
+ }  
+@media(max-width: 1250px ){
+    
+    nav{
+        height: 120px;
+    }
+    .logo{
+        height: 75px;
+    }
+    .logo2{
+      
+        position: absolute;
+        padding: 20px 30px;
+        width: 320px
+       
+       
+    }
+    .icono{
+        display: block ;
+    }
+    .logo{
+        width: 250px;
+     
+    }
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #fff ;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .menu li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        margin-bottom: 100px;
+     }
+     .menu li a{
+        
+        font-size: 40px;
+     }
+     .menu li a:hover, .menu li a:active{
+        background: none;
+        color: coral;
+
+     }
+     #check:checked ~ .menu{
+        left: 0;
+        
+     }
+     .herder-content{
+        padding: 100px 30px;
+     }
+     .herder-content p{
+        padding: 0px;
+     }
+     .telepin{
+         padding: 30px;
+     }
+     .telepin-content h2{
+            padding: 0;
+     }
+     .txt-p{
+        padding: 0;
+     }
+     .telepin-grup{
+        flex-direction: column;
+        margin-bottom: 0;
+     }
+     .servicios{
+        padding: 30px;
+     }
+     .servicios-content p{
+        padding: 0;
+     }
+     .servicios-grup{
+        flex-direction: column;
+        margin-bottom: 0;
+     }
+     .servicios-1{
+        margin-bottom: 25px;
+     }
+     .general{
+        flex-direction: column;
+     }
+     .general-1{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+     }
+     .general-2, .general-3{
+        display: none;
+     }
+     .blog{
+        padding: 30px;
+     }
+     .blog-content{
+        flex-direction: column;
+
+     }
+     .blog-1{
+        padding: 0;
+     }
+     .btn-1{
+        font-size: 45px;
+     }
+     footer{
+        display: flex;
+        padding: 50px;
+        flex-direction: column;
+        text-align: center;
+        font-size: 35px;
+    }
+    footer p{
+        font-size: 35px;
+    }
+    
+}
+
+

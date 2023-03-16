@@ -1,0 +1,170 @@
+
+body{
+    background-color: #efefef;
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Montserrat bold', sans-serif;
+
+}
+header { 
+    /* este es el menu aqui esta los parametros para que quede asi */
+    position: sticky;
+    right: 20px;
+    left: 20px;
+    top: 0px;
+    background-color: coral;
+  
+}
+
+nav{ 
+    /* esto es para mover las opciones del menu a la izquierda */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 1%;
+    padding-right: 6% ;
+    font-weight: bold;
+}
+.logo{
+  /* esta para el tamaño del logo */
+    margin: 2px;
+    padding-top: 0px;
+    width: 350px;
+   
+   
+}
+.menu{
+    padding-left: 20px;
+    left: 20px;
+    list-style-type: none; 
+    box-sizing: border-box;
+    text-transform: uppercase;
+    /* padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto; */
+}
+    
+
+ .menu li a{
+    /* para el color de la letras del muenu */
+    
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+   
+ }
+ .menu li{
+    /* para que sea lineal */
+    display: inline-block;
+ }
+ .menu li a:hover{
+   color: black;
+   
+ }
+.container{
+    /* esto es el contenido del contacto */
+    background-color: #fff;
+     width: 100%;
+    position: absolute;
+    /* top: 0.1%; */
+    left: 50%;
+    bottom: 35%;
+    transform: translate(-50%, 50%);
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.3);
+    max-width: 1200px;
+    max-height: 1200px;
+    display: grid;
+     grid-template-columns: repeat(2,1fr); 
+    grid-gap: 50px;
+    border-radius: 15px;
+    /* margin-top: 10px;  */
+   
+}
+.container h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+    font-family: bold;
+
+}
+.container h2{
+    font-size: 30px;
+    line-height: 1.6;
+/* margin-bottom: 30px; */
+}
+.container a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+
+}
+.container form .campo, textarea{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: 0px;
+
+}
+.campo{
+    /* para que nose una con el borde del formulario */
+    max-width: 540px;
+    min-width: 540px;
+    max-height: 150px;
+    min-width: 160px;
+}
+.container textarea{
+    max-width: 550px;
+    min-width: 550px;
+    max-height: 160px;
+    min-width: 170px;
+}
+.container .enviar{
+   
+    padding: 15px;
+    font-size: 16px;
+    background-color: coral;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 300ms ease;
+    border-radius: 5px;
+    
+}
+.container .enviar:hover{
+    background: #e39403;
+}
+footer{
+    position: absolute;
+    top: 120%;
+    left: 0.1%;
+    right: 0.1%;
+    bottom: 10%;
+    background-color: coral;
+    padding: 2rem;
+    color: #fff;
+}
+footer section{
+    float: right;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+
+}
+footer a:hover{
+    transition: color 0.3s ease;
+    color: midnightblue;
+}
