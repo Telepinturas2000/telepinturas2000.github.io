@@ -144,11 +144,11 @@ nav{
     border-bottom: 1px solid coral;
  }
  .contact-info p {
-    justify-content: center;
+    /* justify-content: center; */
+    text-align: justify;
  }
  .contact-info h4,
- .contact-info ul,
- .contact-info p{
+ .contact-info ul{
     text-align: center;
     margin: 0 0 1rem;
     
@@ -171,7 +171,7 @@ nav{
 color: black;
 }
 .parrafo{
-    text-align: justify;
+    text-align: right;
 }
  /* pie de pagina */
  footer{ 
@@ -210,7 +210,7 @@ footer a:hover{
         grid-template-columns: 2fr 1fr;
     }
     .formulario > *{
-        padding: 2em;
+        padding: 1em;
     }
     .contact-info h4,
     .contact-info ul,
@@ -221,11 +221,11 @@ footer a:hover{
     }
     .contact-info a{
         text-decoration: none;
-        color: black;
+        color: coral;
     }
     .contact-info a:hover{
         transition: color 0.3s ease;
-    color: coral;
+    color: black;
     }
     footer{
         margin-top: 20em;
