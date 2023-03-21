@@ -164,11 +164,11 @@ nav{
  /* para cambiarle el color a los links */
  .contact-info a{
     text-decoration: none;
-    color: black;
+    color: coral;
 }
 .contact-info a:hover{
     transition: color 0.3s ease;
-color: coral;
+color: black;
 }
 .parrafo{
     text-align: justify;
